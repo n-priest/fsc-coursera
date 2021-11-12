@@ -1,1 +1,92 @@
+h1 {
+    text-align: center;
+}
+* {
+    box-sizing: border-box;
+    font-family: "Roboto Light";
+}
+.menu-box {
+    background: #6e6e70;
+    float: left;
+    position: relative;
+    width: 30%;
+    margin-top: 20px;
+    margin-left: 10px;
+    border: solid 1px black;
 
+
+}
+
+.text-box {
+    clear: right;
+    text-align: left;
+    font-size: 16px;
+    padding-bottom: 10px;
+    padding-inline: 10px;
+    position: relative;
+}
+
+.food-chicken {
+    background-color: #ef9e9e;
+    color: black;
+    float: right;
+    width: auto;
+    font-size: 1.3em;
+    padding-inline: 10px;
+    border: solid 1px black;
+    clear: left;
+    margin-right: -1px;
+    margin-top: -1px;
+
+}
+
+.food-beef {
+    background-color: #d92c2c;
+    color: white;
+    float: right;
+    width: auto;
+    font-size: 1.3em;
+    padding-inline: 10px;
+    border: solid 1px black;
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+.food-sushi {
+    background-color: #f6d25a;
+    color: black;
+    float: right;
+    font-size: 1.3em;
+    padding-inline: 10px;
+    border: solid 1px black;
+    margin-right: -1px;
+    margin-top: -1px;
+}
+
+.row {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .small {
+        background-color: #6e6e70;
+        clear: left;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 769px)and (max-width: 991px) {
+    .medium {
+        background-color: #6e6e70;
+        width: 40%;
+    }
+
+}
+@media (min-width: 769px)and (max-width: 991px) {
+    .medium-full {
+        background-color: #6e6e70;
+        width: 81%;
+    }
+
+}
